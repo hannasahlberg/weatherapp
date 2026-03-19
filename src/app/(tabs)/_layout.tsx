@@ -1,5 +1,4 @@
 import { Tabs } from 'expo-router';
-
 import AntDesign from '@expo/vector-icons/AntDesign';
 
 

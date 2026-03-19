@@ -20,6 +20,7 @@ const favorites = () => {
         keyExtractor={(item) => item.name}
         renderItem={({ item }) => (
           <WeatherCard 
+            variant="default"
             city={item.name}
             country={item.country}
             temp={item.temp}

@@ -1,6 +1,6 @@
 import { View, TextInput, StyleSheet, Pressable, Text} from "react-native";
 import Feather from "@expo/vector-icons/Feather";
-import { useState, useContext } from "react";
+import { useState, useContext} from "react";
 import { getData } from "../../api/current";
 import { CurrentWeatherData } from "../../types/current";
 import { WeatherContext } from "../../Context/weatherContext";
@@ -20,7 +20,7 @@ const SearchCity = () => {
     const router = useRouter();
     const [error, setError] = useState<string | null>(null);
 
-
+    
     const handleSearch = async () => {
         if (!search) return;
         setLoading(true);
@@ -65,6 +65,7 @@ const SearchCity = () => {
             </View>
             {currentWeather && (
                 <WeatherCard
+                variant= "default"
                 city={currentWeather.name}
                 country= {currentWeather.sys.country}
                 temp={currentWeather.main.temp}
