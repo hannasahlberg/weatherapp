@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import { WeatherProvider } from "../../Context/weatherContext";
+import { WeatherProvider } from "../Context/weatherContext";
 
 const Layout = () => {
   return (

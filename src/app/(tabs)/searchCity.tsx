@@ -1,14 +1,14 @@
 import { View, TextInput, StyleSheet, Pressable} from "react-native";
 import Feather from "@expo/vector-icons/Feather";
 import { useState, useContext } from "react";
-import { getData } from "../../../api/current";
-import { CurrentWeatherData } from "../../../types/current";
-import { WeatherContext } from "../../../Context/weatherContext";
+import { getData } from "../../api/current";
+import { CurrentWeatherData } from "../../types/current";
+import { WeatherContext } from "../../Context/weatherContext";
 import { useRouter} from "expo-router";
-import Header from "../../../Componens/Header";
-import Spinner from "../../../Componens/Spinner";
-import Background from "../../../Componens/Background";
-import WeatherCard from "../../../Componens/WeatherCard";
+import Header from "../../Componens/Header";
+import Spinner from "../../Componens/Spinner";
+import Background from "../../Componens/Background";
+import WeatherCard from "../../Componens/WeatherCard";
 
 
 const SearchCity = () => {

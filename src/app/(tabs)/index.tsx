@@ -1,13 +1,13 @@
-import { getData } from "../../../api/forecast";
+import { getData } from "../../api/forecast";
 import { View, Text, StyleSheet, Image} from "react-native";
-import { ForecastData } from "../../../types/forecast";
+import { ForecastData } from "../../types/forecast";
 import { useEffect, useState, useContext } from "react";
-import { WeatherContext } from "../../../Context/weatherContext";
-import BlurContainer from "../../../Componens/BlurContainer";
-import Spinner from "../../../Componens/Spinner";
-import Background from "../../../Componens/Background";
-import Header from "../../../Componens/Header";
-import WeatherCard from "../../../Componens/WeatherCard";
+import { WeatherContext } from "../../Context/weatherContext";
+import BlurContainer from "../../Componens/BlurContainer";
+import Spinner from "../../Componens/Spinner";
+import Background from "../../Componens/Background";
+import Header from "../../Componens/Header";
+import WeatherCard from "../../Componens/WeatherCard";
 
 
 

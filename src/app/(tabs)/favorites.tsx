@@ -1,10 +1,10 @@
 import { View, FlatList} from "react-native"
-import { WeatherContext } from "../../../Context/weatherContext";
+import { WeatherContext } from "../../Context/weatherContext"
 import { useContext } from "react";
 import { useRouter } from "expo-router";
-import Background from "../../../Componens/Background";
-import WeatherCard from "../../../Componens/WeatherCard";
-import Header from "../../../Componens/Header";
+import Background from "../../Componens/Background";
+import WeatherCard from "../../Componens/WeatherCard";
+import Header from "../../Componens/Header";
 
 const favorites = () => {
 

@@ -1,4 +1,4 @@
-import { CurrentWeatherData } from "../types/current";
+import { CurrentWeatherData } from "../src/types/current";
 
 
 export const getData = async (city: string): Promise<CurrentWeatherData> =>{
