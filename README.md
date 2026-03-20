@@ -6,7 +6,8 @@ En mobilapp byggd med React Native som visar väder för valfria städer.
 <img width="603" height="1311" alt="IMG_0827" src="https://github.com/user-attachments/assets/17395c2f-5e35-47c5-95e1-104e44143daf" />
 
 ## Funktioner
-- Söka på valfria städer för att se väder
+- Söka på valfria städer för att se nuvarande väder för staden
+- Klicka på en stad för att se dagens prognos med 3-timmarsintervall.
 - Lägga till städer i favoritlista för snabb åtkomst
 - Enkel navigering mellan vyerna med tabs
 
